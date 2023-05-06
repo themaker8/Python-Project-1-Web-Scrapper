@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import csv
 
-url = 'https://www.google.com/search?q=how+to+learn+python&oq=how+to+learn+python&aqs=chrome..69i57.8178j0j1&sourceid=chrome&ie=UTF-8'
+url = 'https://www.example.com'
 response = requests.get(url)
 content = response.content
 
